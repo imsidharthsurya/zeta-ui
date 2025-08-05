@@ -32,3 +32,9 @@ body{
 .tag{
   padding: 5px;
 }
+
+.heading-container{
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}

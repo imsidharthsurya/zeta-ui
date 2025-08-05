@@ -1,7 +1,12 @@
 export const data = [
   {
     title: "Statuses",
-    label: "Good",
+    label: {
+      type: "label",
+      labelText: "Success",
+      color: "green",
+      bgColor: "yellow",
+    },
     children: [
       {
         key: "address",
