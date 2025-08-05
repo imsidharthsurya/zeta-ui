@@ -20,7 +20,17 @@ export const data = [
           "This is some text",
           { remarks: "All good" },
           { ["date of birt"]: "may 01,1999" },
-          ["React", "node", "html"],
+          [
+            {
+              type: "label",
+              labelText: "Success",
+              color: "green",
+              bgColor: "yellow",
+            },
+            "React",
+            "node",
+            "html",
+          ],
         ],
         metadata: "updated at 3 pm",
       },
