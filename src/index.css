@@ -1,0 +1,34 @@
+body{
+  margin:0;
+  padding:0;
+}
+.card-container{
+  border: 1px black solid;
+  padding:20px;
+  margin:50px;
+  border-radius: 8px;
+}
+
+.card-data{
+  display: flex;
+  justify-content: space-between;
+  background-color: gray;
+  padding: 5px;
+  border-bottom: 1px solid black;
+}
+
+.object-value{
+  margin-bottom: 3px;
+}
+
+.card-value-container{
+  display: flex;
+  flex-direction: column;
+  gap:25px;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+}
+.tag{
+  padding: 5px;
+}
